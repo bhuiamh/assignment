@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+}
+.header-container {
+  background-image: url("./images/banner1.png");
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 131px;
+}
+.header-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header-text h1 {
+  font-size: 70px;
+  font-weight: 700;
+  text-align: end;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.header-text p {
+  width: 500px;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 400;
+}
+.header-text button {
+  width: 160px;
+  height: 64px;
+  background-color: #ff6207;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.person-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.failures {
+  width: 416px;
+}
+.failures h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.failures p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.failures ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.failures ul li {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.my-planes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+.my-planes h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+.planes {
+  display: flex;
+  height: fit-content;
+}
+.planes > div {
+  flex: 1 1 auto;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.mindset-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+.mindset {
+  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.call-now {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+}
+.call-now h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.call-now button {
+  width: 160px;
+  height: 64px;
+  color: #ff6207;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer {
+  background-color: #000000;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+.future {
+  width: 485px;
+}
+.future h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.future p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 26px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 30px;
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subscribe h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-bottom: 15px;
+}
+.footer input {
+  width: 300px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: transparent;
+}
+.footer button {
+  width: 160px;
+  height: 64px;
+  background-color: #ff6207;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
